@@ -6,7 +6,9 @@ import Rando from './Rando.js';
 function App() {
   return (
     <div className='App'>
+      rando number
       <Rando maxNum={420} />
+      <i className='fas fa-dice-one' />
     </div>
   );
 }
